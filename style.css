@@ -78,15 +78,13 @@ h2.title:before{
 }
 
 .row-complete:before{
-    /* content:'\29BB';
-    color: red;
-    	 */
+
     content:'\2713';
     border: 2px solid green;
     color: green;
     width: 100px;
     height: 100px;
-    border-radius: 50%
+    border-radius: 50%;    
 }
 
 .row-uncomplete:before{
