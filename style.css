@@ -1,0 +1,19 @@
+/* Inizio common */
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* Fine common */
+
+#logo{
+    height: 80px;
+    margin-left: 20px;
+}
+
+#text-logo{
+    display: inline-block;
+    vertical-align: 25px;
+    font-size: 50px;
+    font-weight: 700;
+    
+}
