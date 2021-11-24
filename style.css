@@ -16,11 +16,12 @@ header{
 #logo{
     height: 80px;
     margin-left: 20px;
+    vertical-align: middle;
 }
 
 #text-logo{
     display: inline-block;
-    vertical-align: 25px;
+    vertical-align: middle;
     font-size: 50px;
     font-weight: 700;
 }
@@ -76,14 +77,16 @@ h2.title:before{
     content: '\23F7';
 
 }
-
+.row-complete{
+    line-height: 20px;;
+}
 .row-complete:before{
 
     content:'\2713';
     border: 2px solid green;
     color: green;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;    
 }
 
