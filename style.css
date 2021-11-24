@@ -60,7 +60,7 @@ main{
     background-color: white;
     border: 1px solid lightgrey;
 }
-}
+
 
 /* Inizio sezione centrale main */
 .central{
@@ -86,11 +86,13 @@ h2.title:before{
 .row-complete:before{
 
     content:'\2713';
-    border: 2px solid green;
+    border: 1px solid green;
     color: green;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;    
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    padding-right: 3px;
+    padding-left: 3px;
 }
 
 .row-uncomplete:before{
