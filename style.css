@@ -46,17 +46,20 @@ main{
     margin-left: 20px;
     border-radius: 5px;
     height: 30px;
-    border: 1px solid gray;
+   
 }
 
 .task{
     color: white;
     background-color: rgb(61, 181, 250);
+    border: 1px solid rgb(61, 181, 250);
 }
 
 .sections{
     color: gray;
     background-color: white;
+    border: 1px solid lightgrey;
+}
 }
 
 /* Inizio sezione centrale main */
@@ -105,27 +108,27 @@ h2.title:before{
 
 }
 
-.editorial{
+.tag-editorial{
     background-color: turquoise;
 
 }
 
-.q1{
+.tag-q1{
     background-color: purple;
 }
 
-.rec{
+.tag-rec{
     background-color: green;
 }
 
-.mobile{
+.tag-mobile{
     background-color: orange;
 }
 
-.website{
+.tag-website{
     background-color: palevioletred;
 }
 
-.sales{
+.tag-sales{
     background-color: limegreen;
 }
