@@ -96,6 +96,7 @@ h2.title:before{
 }
 
 .row-uncomplete:before{
+    font-size: 22px;
     content:'\29BB';
     color: red;
 }
